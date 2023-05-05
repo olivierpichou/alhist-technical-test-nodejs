@@ -24,6 +24,7 @@ Le but est de parcourir la donnée dans l'ordre des next steps. (vous n'avez pas
 
 Votre solution doit prendre en compte que l'on peut changer l'ordre des actions à volonté et en supprimer à volonté.
 
+La solution doit être implémentée dans une fonction `searchData(steps)` qui prend en paramètres "steps" (cf exemple)
 
 Pour un peu plus de contexte, on imagine que les steps représentent des actions d'un robot que vous prédéfinissez, vous lui choisissez un ordre d'action et les steps doivent s'éxécuter dans l'ordre que vous avez défini, cependant vous pouvez supprimer certaines des actions que vous avez défini, ou en déplacer à souhait.
 
