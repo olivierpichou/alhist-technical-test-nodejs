@@ -20,8 +20,9 @@ const steps = [
 ```
 Le but est de parcourir la donnée dans l'ordre des next steps. (vous n'avez pas besoin d'aller plus loin que le parcours de la donnée dans l'ordre.)
 
-Votre solution doit prendre en compte que l'on peut changer l'ordre des actions à volonté et en supprimer à volonté.
 1 => 3 => 2 => 5 => 4 => 9 => 6 => 7
+
+Votre solution doit prendre en compte que l'on peut changer l'ordre des actions à volonté et en supprimer à volonté.
 
 
 Pour un peu plus de contexte, on imagine que les steps représentent des actions d'un robot que vous prédéfinissez, vous lui choisissez un ordre d'action et les steps doivent s'éxécuter dans l'ordre que vous avez défini, cependant vous pouvez supprimer certaines des actions que vous avez défini, ou en déplacer à souhait.
