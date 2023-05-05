@@ -14,7 +14,7 @@ const steps = [
   {id: 5, action: 'TRAVAILLER', next_step_id: 4},
   {id: 4, action: 'JOUER', next_step_id: 9},
   {id: 6, action: 'VOYAGER', next_step_id: 7},
-  {id: 7, action: 'TERMINER', next_step_id: NULL},
+  {id: 7, action: 'TERMINER', next_step_id: null},
   {id: 9, action: 'TELEPHONER', next_step_id: 6}
 ]
 ```
