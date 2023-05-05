@@ -8,7 +8,7 @@ Créez une branche nom-prenom et pushez votre code dessus.
 J'ai une table "steps" dans ma base de donnée qui représente des étapes contenant une action, considérez que votre base de données vous retourne par exemple:
 ```
 const steps = [
-  {id: 1, action: 'MANGER', next_step_id: 3},
+  {id: 1, action: 'START', next_step_id: 3},
   {id: 3, action: 'BOIRE', next_step_id: 2},
   {id: 2, action: 'DORMIR', next_step_id: 5},
   {id: 5, action: 'TRAVAILLER', next_step_id: 4},
@@ -18,7 +18,7 @@ const steps = [
   {id: 9, action: 'TELEPHONER', next_step_id: 6}
 ]
 ```
-Le but est de parcourir la donnée dans l'ordre des next steps. (vous n'avez pas besoin d'aller plus loin que le parcours de la donnée dans l'ordre.)
+Le but est de parcourir la donnée dans l'ordre des next steps. (vous n'avez pas besoin d'aller plus loin que le parcours de la donnée dans l'ordre.). Le premier élément est toujours celui contenant l'action "START".
 
 1 => 3 => 2 => 5 => 4 => 9 => 6 => 7
 
