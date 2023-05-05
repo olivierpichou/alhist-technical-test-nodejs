@@ -18,7 +18,7 @@ const steps = [
   {id: 9, action: 'TELEPHONER', next_step_id: 6}
 ]
 ```
-Le but est de parcourir la donnée dans l'ordre des next steps. (vous n'avez pas besoin d'aller plus loin que le parcours de la donnée dans l'ordre.). Le premier élément est toujours celui contenant l'action "START".
+Le but est de parcourir la donnée dans l'ordre des next steps et de retourner un array ordonnedSteps. (vous n'avez pas besoin d'aller plus loin que le parcours de la donnée dans l'ordre et le retour des steps ordonnées.). Le premier élément est toujours celui contenant l'action "START".
 
 1 => 3 => 2 => 5 => 4 => 9 => 6 => 7
 
